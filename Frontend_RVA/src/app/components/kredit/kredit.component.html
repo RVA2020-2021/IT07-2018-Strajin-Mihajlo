@@ -8,7 +8,7 @@
     </mat-form-field>
     <mat-table #table matSort [dataSource]="dataSource" class="mat-cell">
       <!--ID-->
-      <ng-container matColumnDef="id">
+      <ng-container matColumnDef="id"> 
         <mat-header-cell *matHeaderCellDef mat-sort-header>ID</mat-header-cell>
         <mat-cell *matCellDef="let row">{{ row.id }}</mat-cell>
       </ng-container>
