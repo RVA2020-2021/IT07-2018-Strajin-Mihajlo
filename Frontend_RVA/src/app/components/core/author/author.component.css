@@ -1,0 +1,9 @@
+.example-card {
+    max-width: 600px;
+    margin: 5pt;
+  }
+  
+  .example-header-image {
+    background-image: url('C:\Users\x\Pictures\20_4O2_Mihajlo_Strajin_C1_pp_R1[2].jpg');
+    background-size: cover;
+  }
